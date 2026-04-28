@@ -6,6 +6,7 @@ struct Price {
     short int kopiyky;
 };
 
+
 void add(Price& a, Price& b);
 void multiply(Price& a, int n);
 void roundPrice(Price& a);

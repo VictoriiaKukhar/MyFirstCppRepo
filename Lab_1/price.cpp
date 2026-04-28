@@ -88,4 +88,5 @@ void processFile(FILE* file) {
 
     printf("Сума після округлення: ");
     printPrice(rounded);
+    
 }
