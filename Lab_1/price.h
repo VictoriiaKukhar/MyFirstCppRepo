@@ -1,6 +1,7 @@
 #pragma once
 #include <stdio.h>
 
+
 struct Price {
     int gryvnia;
     short int kopiyky;

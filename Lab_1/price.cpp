@@ -1,6 +1,7 @@
 #include "price.h"
 #include <stdio.h>
 
+
 void add(Price& a, Price& b) {
 
     a.gryvnia += b.gryvnia;
@@ -88,5 +89,5 @@ void processFile(FILE* file) {
 
     printf("Сума після округлення: ");
     printPrice(rounded);
-    
+
 }

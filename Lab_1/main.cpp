@@ -6,11 +6,12 @@
 
 int main() {
 
-    // Встановлюємо UTF-8 для Windows
+
+    // Встановлюємо UTF-8 для Windows.
     SetConsoleOutputCP(65001);
     SetConsoleCP(65001);
 
-    // Українська локаль
+    // Українська локаль.
     setlocale(LC_ALL, ".UTF-8");
 
     FILE* my_file;
@@ -25,5 +26,5 @@ int main() {
     processFile(my_file);
 
     return 0;
-    
+
 }
