@@ -7,7 +7,7 @@
 int main() {
 
 
-    // Встановлюємо UTF-8 для Windows.
+    // UTF-8 для Windows.
     SetConsoleOutputCP(65001);
     SetConsoleCP(65001);
 

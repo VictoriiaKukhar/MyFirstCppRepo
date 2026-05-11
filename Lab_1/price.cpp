@@ -1,5 +1,6 @@
 #include "price.h"
 #include <stdio.h>
+#include <math.h>
 
 
 void add(Price& a, Price& b) {
@@ -65,6 +66,7 @@ void processFile(FILE* file) {
         Price price = {h, k};
 
         printf("Продукт: %s\n", name);
+
 
         printf("Ціна: %d грн %d копійок\n",
                h,
